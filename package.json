@@ -1,0 +1,38 @@
+{
+  "name": "get-dataset",
+  "description": "Get a DOM element's or an SVG Element's dataset. Works where .dataset isn't present such as in < IE11",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cosmosio/get-dataset",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/cosmosio/get-dataset/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "data",
+    "data-",
+    "dataset",
+    "attribute"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cosmosio/get-dataset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmosio/get-dataset/issues"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "main": "index.js",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
