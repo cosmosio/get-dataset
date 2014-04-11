@@ -32,7 +32,8 @@
   },
   "main": "index.js",
   "devDependencies": {
+    "quick-dom": "0.0.1",
+    "jasmine-node": "~1.14.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
