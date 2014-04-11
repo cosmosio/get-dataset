@@ -15,7 +15,7 @@
  */
  module.exports = function getDataset(dom) {
     var dataset = {},
-        i, l, split,join;
+        i, l, split, join;
 
     if ("dataset" in dom) {
         return dom.dataset;
