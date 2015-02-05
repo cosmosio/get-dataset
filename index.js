@@ -3,9 +3,11 @@
 *
 * The MIT License (MIT)
 *
-* Copyright (c) 2014 Olivier Scherrer <pode.fr@gmail.com>
+* Copyright (c) 2014-2015 Olivier Scherrer <pode.fr@gmail.com>
 */
 "use strict";
+
+var toCamelCase = require("to-camel-case");
 
 /**
  * Get a domNode's dataset attribute. If dataset doesn't exist (IE)
@@ -23,9 +25,10 @@
         for (i=0, l=dom.attributes.length; i<l; i++) {
             split = dom.attributes[i].name.split("-");
             if (split.shift() == "data") {
-                dataset[join = split.join("-")] = dom.getAttribute("data-"+join);
+                join = split.join("-");
+                dataset[toCamelCase(join)] = dom.getAttribute("data-" + join);
             }
         }
         return dataset;
     }
-};
+ };
