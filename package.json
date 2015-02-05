@@ -1,7 +1,7 @@
 {
   "name": "get-dataset",
   "description": "Get a DOM element's or an SVG Element's dataset. Works where .dataset isn't present such as in < IE11",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/cosmosio/get-dataset",
   "licenses": [
     {
@@ -28,12 +28,15 @@
     "url": "https://github.com/cosmosio/get-dataset/issues"
   },
   "scripts": {
-    "test": "jasmine-node test/"
+    "test": "mocha test/"
   },
   "main": "index.js",
-  "devDependencies": {
-    "quick-dom": "0.0.1",
-    "jasmine-node": "~1.14.3"
+  "dependencies": {
+    "to-camel-case": "~0.2.1"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "quick-dom": "0.0.1",
+    "mocha": "~2.1.0"
+  }
 }
