@@ -1,7 +1,7 @@
 {
   "name": "get-dataset",
   "description": "Get a DOM element's or an SVG Element's dataset. Works where .dataset isn't present such as in < IE11",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/cosmosio/get-dataset",
   "licenses": [
     {

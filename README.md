@@ -22,7 +22,7 @@ var getDataset = require("get-dataset");
 Given this element:
 
 ```html
-<div class="myDiv" data-prop="value1" data-composed-prop2="value2"></div>
+<div class="myDiv" data-prop="value1" data-composed-prop="value2"></div>
 ```
 
 To retrieve the dataset:
