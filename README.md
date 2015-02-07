@@ -43,6 +43,10 @@ returns:
 CHANGELOG
 =========
 
+#### 0.0.3 - 0.0.4
+
+* Fix doc
+
 #### 0.0.2
 
 * Fix bug where properties of the returned object weren't camelcased. Issue #1.
